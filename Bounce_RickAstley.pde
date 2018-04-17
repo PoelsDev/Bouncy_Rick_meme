@@ -27,6 +27,8 @@ AudioPlayer song;
 void setup() {
   size(625,351);
   frameRate(60);
+  stroke(255);
+  frameRate(60);
   
   img = loadImage("rickastley.png");
   img2 = loadImage("rick2.jpg");
