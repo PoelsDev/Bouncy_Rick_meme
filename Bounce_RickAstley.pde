@@ -35,7 +35,7 @@ void setup() {
   
   minim = new Minim(this);
   song = minim.loadFile("Never.mp3");
-  song.play();
+  song.loop();
   
   //file = new SoundFile(this,"Never.mp3");
   //file.play();
